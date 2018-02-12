@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WaterRescue</string>
+    <string name="title_home">Volume</string>
+    <string name="title_dashboard">On/Off</string>
+    <string name="title_notifications">Statistik</string>
+    <string name="title_database">Database</string>
+
+</resources>
