@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_volume"
+        android:id="@+id/navigation_tangkibaku"
         android:icon="@drawable/ic_home_black_24dp"
         android:title="@string/title_home" />
 
     <item
-        android:id="@+id/navigation_onoff"
+        android:id="@+id/navigation_tangkibersih"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="@string/title_dashboard" />
 
@@ -17,9 +17,9 @@
         android:title="@string/title_notifications" />
 
     <item
-        android:id="@+id/navigation_database"
+        android:id="@+id/navigation_history"
         android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="Database" />
+        android:title="History" />
 
 
 </menu>
