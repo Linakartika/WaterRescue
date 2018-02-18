@@ -9,16 +9,15 @@
     tools:context="com.example.win10.waterrescue.MainActivity">
 
     <TextView
-        android:id="@+id/tangkibaku"
+        android:id="@+id/message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginStart="@dimen/activity_horizontal_margin"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="Tangki Air Baku"
+        android:text="History"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
@@ -31,5 +30,4 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/navigation" />
-
 </android.support.constraint.ConstraintLayout>

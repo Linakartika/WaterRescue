@@ -17,6 +17,9 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
+                case R.id.navigation_history:
+                    mTextMessage.setText(R.string.title_notifications);
+                    return true;
                 case R.id.navigation_tangkibaku:
                     mTextMessage.setText(R.string.title_home);
                     return true;
@@ -24,10 +27,7 @@ public class MainActivity extends AppCompatActivity {
                     mTextMessage.setText(R.string.title_dashboard);
                     return true;
                 case R.id.navigation_statistik:
-                    mTextMessage.setText(R.string.title_notifications);
-                    return true;
-                case R.id.navigation_history:
-                    mTextMessage.setText("History");
+                    mTextMessage.setText(R.string.title_statistik);
                     return true;
             }
             return false;

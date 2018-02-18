@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">WaterRescue</string>
+    <string name="title_notifications">History</string>
     <string name="title_home">Tangki Air Baku</string>
     <string name="title_dashboard">Tangki Air Bersih</string>
-    <string name="title_notifications">Statistik</string>
-    <string name="title_history">History</string>
+    <string name="title_statistik">Statistik</string>
 
 </resources>
